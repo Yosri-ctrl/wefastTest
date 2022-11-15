@@ -1,5 +1,4 @@
 <h1 align="center">Test Technique</h1>
----
 
 ## 📝 Table of Contents
 
@@ -13,9 +12,11 @@
 This project is a technical assignment,
 it run using Nodejs/express for the authentication and javascript and Html/CSS for the front end.
 
-Using the WebRTC librery, to establish a peer-to-peer connection between two pc.
+Using the WebRTC librery to establish a peer-to-peer connection between two pc.
 Sharing in a one way the full screen for the other user.
 
+Althought the authentication haven't been finished, it need some more work to do,
+in this example this is how it supposed to look like at the end.
 
 The user start by entring the CIN, name, passowrd and the birth date to register.
 
@@ -25,7 +26,7 @@ And to login enter CIN and password.
 
 ![screenshot](./assests/5.png)
 
-In this case I make it so that both screen present in the same tab just for the presentation and as exemple only.
+In this case I make it so that both screen present in the same tab just for the presentation and as an exemple only.
 
 ![screenshot](./assests/3.png)
 
