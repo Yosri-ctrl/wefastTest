@@ -1,0 +1,86 @@
+button {
+  margin: 0 20px 0 0;
+  width: 83px;
+}
+
+button#hangupButton {
+  margin: 0;
+}
+
+video {
+  --width: 45%;
+  width: var(--width);
+  height: calc(var(--width) * 0.75);
+  margin: 0 0 20px 0;
+  vertical-align: top;
+}
+
+video#localVideo {
+  margin: 0 20px 20px 0;
+}
+
+div.box {
+  margin: 1em;
+}
+
+#localVideo,
+#remoteVideo {
+  background-color: #272727;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.form {
+  background-color: rgb(234, 235, 236);
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+  padding: 20px 60px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.form .title {
+  align-self: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+.sideNote {
+  align-self: end;
+  font-size: 12px;
+}
+
+.inputs {
+  /* background-color: rgb(178, 190, 197); */
+  height: 200px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.inputs input {
+  margin-bottom: 20px;
+  padding: 5px;
+  border: none;
+  border-bottom: 0.5px solid rgb(33, 146, 252);
+  border-radius: 10px;
+}
+.inputs button {
+  width: 50px;
+}
+
+.cree {
+  align-self: end;
+  text-decoration: none;
+  color: rgb(33, 146, 252);
+  padding-top: 5px;
+}
+.formR{
+  height: 500px;
+}
+.inputsR{
+  height: 500px;
+}

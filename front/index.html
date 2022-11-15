@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1"
+    />
+    <title>Test</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="main.js" async></script>
+
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>
+        <span>Peer connection</span>
+      </h1>
+
+      <video id="localVideo" playsinline autoplay muted></video>
+      <video id="remoteVideo" playsinline autoplay></video>
+
+      <div class="box">
+        <button id="startButton">Start</button>
+        <button id="callButton">Call</button>
+        <button id="hangupButton">Hang Up</button>
+      </div>
+    </div>
+  </body>
+</html>
